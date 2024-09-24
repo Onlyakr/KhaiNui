@@ -1,0 +1,84 @@
+.button{
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.button1{ 
+    color: greenyellow;
+    text-align: left;
+    border-style: solid;
+    background-color: rebeccapurple;
+    margin-left: 300px;
+    padding: 50px 50px 50px 50px;
+    font-size: 50px;
+}
+
+.button1:hover{
+    color: blue;
+    background-color: grey;
+    opacity: 80%;
+    transition: color,background-color,opacity,0.5s;
+}
+
+.button2{ 
+    color: rgb(224, 228, 15);
+    text-align: right;
+    border-style: solid;
+    background-color: rgb(31, 80, 153);
+    margin-left: 900px;
+    padding: 50px 50px 50px 50px;
+    font-size: 50px;
+}
+
+.button2:hover{
+    color: blue;
+    background-color: grey;
+    opacity: 80%;
+    transition: color,background-color,opacity,0.5s;
+}
+
+body{
+    margin: 0;
+    background-image: url(https://scontent.cdninstagram.com/v/t51.29350-15/461252511_1097665811715134_3554339392321678561_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ecb677&_nc_ohc=nxrV9JkKfa0Q7kNvgGFJInZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&_nc_gid=AfhBMX1D7eysJVkzbgNI3xG&oh=00_AYCRJIZk31vUXfA2PWamfy-fUPogN1EWlMrIu5EfgCrZGg&oe=66F8C0EA);
+}
+
+.hj{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: aqua;
+    color: hsl(308, 91%, 55%);
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    padding-top: 70px;
+    margin-top: 50px;
+    margin-left: 700px;
+    width: 500px;
+    height: 100px;
+}
+
+.hj:hover{
+    color: blue;
+    background-color: grey;
+    opacity: 80%;
+    transition: color,background-color,opacity,0.5s;
+}
+
+p{
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    background-color: wheat;
+    width: 200px;
+    margin-left: 850px;
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 200px;
+    margin-left: 1600px;
+    color: tomato;
+}
